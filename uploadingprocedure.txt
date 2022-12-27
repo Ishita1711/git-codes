@@ -1,0 +1,54 @@
+step 1: git init                                                                                   (this command is used to initialize the procedure of pushing a project from a local repository.)
+step 2: git status                                                                                  (to check the current status and the command is optional)
+
+
+step 3: ADDING FILES
+========
+                                   TO ADD A SINGLE FILE
+--------------------------------------------------------------------------------------------------------------
+git add file < filename>  or path 
+
+
+
+
+TO ADD MULTIPLE FILES OR ALL THE CONTENTS 
+-------------------------------------------------------------------------------------------------
+
+git add.
+
+
+Step 4: git remote add origin <paste the copied path from the cloud repository>
+
+Step 5: git commit -m "initial commit"                       (to save the changes in the cloud repos. from the local repos.)
+
+=================================================================================================================================================
+
+if step 5 fails do follow the highlighted steps else repeat step 5
+
+=========================================================AUTHENTICATION===================================================================
+   email auth 
+---------------------------------------------------------
+git config  --global user.email  "enter your email"
+
+user name auth
+-------------------------------------------------------
+git config --global user.name "enter your username"
+
+
+================================================================repeat step 5========================================================
+
+AUTHENTICATE OPTIONS
+
+OPTION 1: AUTH WITH YOUR BROWSER
+OPTION 2: AUTH WITH  CODE
+
+select option 1
+
+git config -l                 (for login)
+
+FINAL SUBMISSION
+git push -u origin master
+
+
+your project will be updated successfully.
+
